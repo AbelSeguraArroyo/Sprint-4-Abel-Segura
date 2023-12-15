@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(236, 213, 7);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    background-color: black;
+}
+header img{
+    width: 110px;
+    margin-right: 100px;
+}
+nav{
+    padding: 40px;
+}
+nav a{
+    margin: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(241, 208, 57);
+    background-color: rgba(25, 159, 236, 0.849);
+    padding: 7px;
+    border-radius: 10px;
+}
+h1{
+    text-decoration: underline;
+}
+.titulo-principal{
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 20px;
+}
+.titulo-principal h1, h2{
+    margin: 5px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    
+}
+.imagen-banner{
+    height: 390px;
+    width: 75%;
+    border: 3px solid black;
+    margin-bottom: 40px;
+}
+#seccion1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.imagen1{
+    width: 350px;
+    border: 3px solid black;
+}
+.upcoming-events h2{
+    text-decoration: underline; 
+   padding-left: 10px;
+}
+.upcoming-events h3, p{
+    padding-left: 50px;
+}
+.contenedor-section-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.seccion-about{
+    max-width: 700px;
+    text-align: center;
+    border: 3px solid black;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.seccion-about h3{
+    text-decoration: underline;
+}
+.images-about{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.images-about img{
+    width: 250px;
+    border: 3px solid black;
+}
+.container-contacto img{
+    width: 200px;
+    margin-top: 50px;
+
+}
+.container-contacto{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.contacto-p{
+    margin-top: 100px;
+}
+.contacto-p p{
+    margin: 20px;
+}
+.lista ol {
+    list-style-type: decimal; 
+    margin-left: 20px; 
+}
+
+.lista ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.lista-2 ol {
+    list-style-type: lower-alpha; 
+    margin-left: 20px
+}
+.lista {
+    width: 75%; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+.lista-2 {
+    width: 75%; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+.subtitulos-table{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 140px;
+}
+.contenedor-tabla {
+    display: flex;
+    justify-content: center;
+}
+.tabla {
+    width: 80%;
+    border-collapse: separate;
+}
+.tabla th {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.tabla td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.texto-final{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 30px;
+}
+.contenedor-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1{
+        width: 60%;
+}
+.contenedor-form2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form2{
+        width: 60%;
+}
+.contenedor-form3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form3{
+        width: 60%;
+}
+.contenedor-mapas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fila-mapas{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+}
+.mapa{
+    text-align: center;
+}
+.mapa h4{
+    margin-bottom: 13px;
+    border: 3px solid white;
+    background-color: rgb(183, 182, 238);
+}
